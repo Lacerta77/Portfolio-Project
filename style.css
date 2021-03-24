@@ -6,10 +6,31 @@ html {
     background-size: cover;
 }
 
+nav {
+    text-align: center;
+    font-size: 30px;
+    padding-left: 25px;
+    display: inline;
+    color: whitesmoke;
+}
+
 h1 {
+    padding-top: 30px;
+    padding-left: 45px;
+    padding-bottom: 10px;
     text-align: left;
     color: whitesmoke;
 }
-body {    
+
+h2 {
+    padding-left: 45px;
+}
+
+body {
     color: whitesmoke;
+  }
+
+  img {
+      width: 100%;
+      height: auto;
   }
