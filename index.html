@@ -3,6 +3,11 @@
   <head>
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
+    <script>
+        function contactinfo() {
+          document.getElementById("switchtext").innerHTML = "Email: Kevinhickman4@gmail.com || Github: https://github.com/Lacerta77";
+        }
+        </script>
   </head>
 
   <nav>
@@ -37,15 +42,10 @@
     <p>layout for all my best projects but until then enjoy my first attempt at using javascript in HTML.</p>
     <img src="https://www.aahoa.com/images/default-source/default-album/coming-soon.png?sfvrsn=a236ff9e_0">
     <h2>Contact Me</h2>
-
-    <script>
-        function contactinfo() {
-          document.getElementById("demo").innerHTML = "Email: Kevinhickman4@gmail.com";
-        }
-        </script>
     
-        <p id="demo">Click the button bellow to see my contact information.</p>
-        <button type="button" onclick="contactinfo()"></button>
+        <p id="switchtext">Click the button below to see my contact information.</p>
+
+        <p><button type="button" onclick="contactinfo()"></button></p>
     </body>
   
 </html>
